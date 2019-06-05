@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</RelativeLayout>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" >
+		<TextView
+			android:text="Name"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_CenterVertical="true"
+			android:id="@+id/textView1" />
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="36.0dp"
+			android:layout_toRightOf="@id/textView1"
+			android:id="@+id/editText1" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" >
+		<TextView
+			android:text="Piece"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_CenterVertical="true"
+			android:id="@+id/textView1" />
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="36.0dp"
+			android:layout_toRightOf="@id/textView1"
+			android:id="@+id/editText1" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1" >
+		<TextView
+			android:text="Element"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_CenterVertical="true"
+			android:id="@+id/textView1" />
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="36.0dp"
+			android:layout_toRightOf="@id/textView1"
+			android:id="@+id/editText1" />
+	</RelativeLayout>
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout2" >
+	<TextView
+			android:text="Setpiece"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_CenterVertical="true"
+			android:id="@+id/textView1" />
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:id="@+id/switch1" />
+	</RelativeLayout>
+</LinearLayout>
