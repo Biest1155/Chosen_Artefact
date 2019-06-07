@@ -14,7 +14,6 @@ namespace Chosen_Artefact
     {
         Repository repository = Repository.GetInstance();
         ListView listview;
-        Artefact artefact;
         EditText edit;
         Switch switcher;
         protected override void OnCreate(Bundle savedInstanceState)

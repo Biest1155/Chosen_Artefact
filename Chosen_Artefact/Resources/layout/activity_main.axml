@@ -17,7 +17,6 @@
 			android:textAppearance="?android:attr/textAppearanceMedium"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_CenterVertical="true"
 			android:id="@+id/nameText" />
 		<EditText
 			android:layout_width="match_parent"
@@ -36,7 +35,6 @@
 			android:textAppearance="?android:attr/textAppearanceMedium"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_CenterVertical="true"
 			android:id="@+id/typeText" />
 		<EditText
 			android:layout_width="match_parent"
@@ -55,7 +53,6 @@
 			android:textAppearance="?android:attr/textAppearanceMedium"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_CenterVertical="true"
 			android:id="@+id/elementText" />
 		<EditText
 			android:layout_width="match_parent"
@@ -74,12 +71,10 @@
 			android:textAppearance="?android:attr/textAppearanceMedium"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_CenterVertical="true"
 			android:id="@+id/setpieceText" />
 		<Switch
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:layout_alignParentRight="true"
 			android:id="@+id/setpieceSwitch" />
 	</RelativeLayout>
 	<LinearLayout
@@ -92,8 +87,6 @@
 			android:text="Search"
 			android:layout_width="121.5dp"
 			android:layout_height="wrap_content"
-			android:layout_CenterVertical="true"
-			android:layout_toLeftOf="@id/randomButton"
 			android:id="@+id/searchButton" />
 		<Button
 			android:text="Random"
